@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .home,
+  .services,
+  .products,
+  .sign-up {
+    /* display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem; */
   }
-  to {
-    transform: rotate(360deg);
+  
+  .services {
+    padding-right: 15px;
+    background-image: url('./images/img-2.jpg');
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
   }
-}
+  
+  .products {
+    /*background-image: url('/images/img-1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;*/
+  }
+  
+  .researching {
+    background-image: url('./images/img-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(12, 176, 9);
+    font-size: 100px;
+  }
+
+  .welcome {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  h5 {
+    text-align: center;
+    color: rgb(194, 15, 102);
+    font-size: 30px;
+  }
+
+  .parts h2 {
+    background-color: rgb(240, 240, 15);
+    padding-right: 20px;
+    margin: 3px;
+  }
+  
+  .parts P {
+    border: 2px solid black;
+    margin: 0 5px;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 40px;
+    background-color: rgb(231, 248, 192);
+  }
+
+  .simulation-pro li{
+    text-indent: 50px;
+    list-style-type: none;
+  }
+
+  .primary-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 20px;
+    background-color: #2196F3;
+    padding: 10px;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .primary-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .arrow {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url(kkk.ttf);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
+
+ p {
+  line-height: 30px;
+ }
